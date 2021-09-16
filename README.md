@@ -57,12 +57,16 @@ This assignment was relatively simple, but was challenging because I had not cod
 
 ### Assignment Description
 
-For the Python Calculator assignment we needed to write a program that asked the user to input two numbers, and then it would print out the sum, difference, product, qoutient and modulus of the two inputs. The program would do all of the calculations using the same **doMath()** function, 5 different times.
+For the Python Calculator assignment we needed to write a program that asked the user to input two numbers, and then it would print out the sum, difference, product, qoutient and modulus of the two inputs. The program would do all of the calculations using the same **doMath()** function, 5 different times. 
 
 ### Evidence 
 
+![pic-of-code](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/python-calculator.PNG)
 
 ### Wiring
 
+N/A
 
 ### Reflection
+
+I found this assignment pretty challenging because in one of my other classes we're writing in javascript, and I couldn't remember what python was like. I learned how to break down the function into many different conditions. This simplified my overall code so that I didn't have to write out the math inside the print lines. I learned that in python you have to write "return" before your math on the same line in order for the function to return the value from the math. Otherwise, the function will do the math but won't return the answer outside of the function. I also learned that you have to convert numbers to strings in order to print them out along with text. You can do this using the str() command.
