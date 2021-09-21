@@ -1,10 +1,8 @@
-'''
+# Python Program 02 - Quadratic Solver (ENGR4)
 
-                            Online Python Compiler.
-                Code, Compile, Run and Debug python program online.
-Write your code in this editor and press "Run" button to execute it.
+#Written by Sean Lynch
 
-'''
+#9.21.2021
 from math import sqrt # this will allow me to use the 
 print("Quadratic Solver")
 print("Enter the coefficients for ax^2 + bx + c = 0")
