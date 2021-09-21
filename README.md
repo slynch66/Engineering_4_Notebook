@@ -3,6 +3,7 @@
 * [Basics](#Basics)
 * [Python_Dice_Roller](#PythonDiceRoller)
 * [Python_Calculator](#Python_Calculator)
+* [Python Quadratic Solver](#Python_Quadratic_Solver)
 ---
 
 ## Basics
@@ -61,7 +62,7 @@ For the Python Calculator assignment we needed to write a program that asked the
 
 ### Evidence 
 
-![pic-of-code](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/python-calculator.PNG)
+![pic-of-code-and-serial-monitor](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/python-calculator.PNG)
 
 ### Wiring
 
@@ -70,3 +71,17 @@ N/A
 ### Reflection
 
 I found this assignment pretty challenging because in one of my other classes we're writing in javascript, and I couldn't remember what python was like. I learned how to break down the function into many different conditions. This simplified my overall code so that I didn't have to write out the math inside the print lines. I learned that in python you have to write "return" before your math on the same line in order for the function to return the value from the math. Otherwise, the function will do the math but won't return the answer outside of the function. I also learned that you have to convert numbers to strings in order to print them out along with text. You can do this using the str() command.
+
+## Python Quadratic Solver
+
+### Assignment Description
+
+
+
+### Evidence
+
+![pic-of-code-and-serial-monitor](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/python_program_02.PNG)
+
+### Wiring
+
+### Reflection
