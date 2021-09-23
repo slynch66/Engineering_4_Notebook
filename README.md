@@ -76,7 +76,7 @@ I found this assignment pretty challenging because in one of my other classes we
 
 ### Assignment Description
 
-
+For the Quadratic Solver assignment we needed to write a program that asks the user for the a, b, and c coefficients of a quadratic equation. We take the new equation it gives us and print out the roots of the quadratic is it has some, and if there are no real roots it will print that out too. We had to take the discriminant in order to find out if the equation has real roots or not. Once it prints out the roots, we have to ask the user to press Enter to run another equation or 'x' then Enter to quit.
 
 ### Evidence
 
@@ -84,4 +84,15 @@ I found this assignment pretty challenging because in one of my other classes we
 
 ### Wiring
 
+N/A
+
 ### Reflection
+
+One program format that I'll need to remember is the format I use in order to run the program when they press Enter, run it again if they press Enter, and stop the program if they press 'x' then Enter. This is the format I use to do that:
+```python
+retry = input("press Enter to start")
+
+while retry == "":
+    Program Code
+    retry = input("press Enter to start or 'x' then Enter to quit: ")
+```
