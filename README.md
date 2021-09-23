@@ -74,3 +74,7 @@ while retry == "":
     Program Code
     retry = input("press Enter to start or 'x' then Enter to quit: ")
 ```
+
+## Python Strings and Loops
+
+sources: https://www.w3schools.com/python/python_for_loops.asp
