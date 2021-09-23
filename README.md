@@ -62,7 +62,7 @@ For the Python Calculator assignment we needed to write a program that asked the
 
 ### Evidence 
 
-![pic-of-code-and-serial-monitor](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/python-calculator.PNG)
+![pic-of-code-and-serial-monitor](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/python_program_01.PNG)
 
 ### Wiring
 
