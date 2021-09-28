@@ -72,9 +72,23 @@ while retry == "":
 
 ### Assignment Description
 
+For this assignment we had to write a program that asks the user to input a sentence. The program then takes the sentence and prints it back out one letter at a time, with dashes in between each word.
+
 ### Evidence
 
+![pic-of-code-and-serial-monitor](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/strings_and_loops.PNG)
+
 ### Reflection
+
+When this code runs, this nested for loop prints out each letter of a word on separate lines. When it finishes the word, it exits the nested for loop and prints a dash. As long as there are more words to run through from the array, the outer for loop will continue to run.
+```python
+words = sentence.split()
+
+for x in words:
+    for n in x:
+        print(n)
+    print("-")
+```
 
 ### Sources 
 https://www.w3schools.com/python/python_for_loops.asp
