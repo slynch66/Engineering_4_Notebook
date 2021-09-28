@@ -1,6 +1,6 @@
 # Engineering_4_Notebook
 ## Table of Contents
-* [Python_Dice_Roller](#PythonDiceRoller)
+* [Python_Dice_Roller](#Python_Dice_Roller)
 * [Python_Calculator](#Python_Calculator)
 * [Python Quadratic Solver](#Python_Quadratic_Solver)
 * [Python Strings and Loops](#Python_Strings_and_Loops)
