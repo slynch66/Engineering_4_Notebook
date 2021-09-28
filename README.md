@@ -47,7 +47,7 @@ For the Python Calculator assignment we needed to write a program that asked the
 
 I found this assignment pretty challenging because in one of my other classes we're writing in javascript, and I couldn't remember what python was like. I learned how to break down the function into many different conditions. This simplified my overall code so that I didn't have to write out the math inside the print lines. I learned that in python you have to write "return" before your math on the same line in order for the function to return the value from the math. Otherwise, the function will do the math but won't return the answer outside of the function. I also learned that you have to convert numbers to strings in order to print them out along with text. You can do this using the str() command.
 
-## Python Quadratic Solver
+## Python_Quadratic_Solver
 
 ### Assignment Description
 
@@ -68,7 +68,7 @@ while retry == "":
     retry = input("press Enter to start or 'x' then Enter to quit: ")
 ```
 
-## Python Strings and Loops
+## Python_Strings_and_Loops
 
 ### Assignment Description
 
