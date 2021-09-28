@@ -4,6 +4,7 @@
 * [Python_Calculator](#Python_Calculator)
 * [Python Quadratic Solver](#Python_Quadratic_Solver)
 * [Python Strings and Loops](#Python_Strings_and_Loops)
+* [Python Challenge - MSP](#Python_Challenge_MSP)
 ---
 
 ## Python_Dice_Roller
@@ -92,3 +93,5 @@ for x in words:
 
 ### Sources 
 https://www.w3schools.com/python/python_for_loops.asp
+
+https://itsourcecode.com/free-projects/python-projects/hangman-game-in-python-with-source-code/#
