@@ -116,5 +116,7 @@ For this assignment we had to write a hangman game program. The 'MSP' stands for
         return blanks  
 ```
 This was the function that took the blanks displayed to player 2 and changed the blanks to letters each time player 2 would correctly guess a letter from the word. The most important line of code in this function was the line "blanks = ". The three parts that blanks are being set to: 
-                    1. The first part ( blanks[blanks)eeps all of the letters of the word before the correctly guessed letter as blanks. 
-                    2. 
+                    
+                    1. The first part ( blanks[:b] ) keeps all of the letters of the word before the correctly guessed letter as blanks. 
+                    2. The second part ( word[b] ) replaces the correct blank with the correctly guessed letter.
+                    3. The third part ( blanks[b + 1:] ) keeps all of the letters of the word after the correctly guessed letter as blanks. 
