@@ -100,4 +100,10 @@ https://itsourcecode.com/free-projects/python-projects/hangman-game-in-python-wi
 
 ### Assignment Description
 
-For this assignment we had to write a hangman game program. The 'MSP' stands for Man-Shaped-Pinata. The program first asks player 1 for the word, and then player 2 has to guess the word by entering different letters.
+For this assignment we had to write a hangman game program. The 'MSP' stands for Man-Shaped-Pinata. The program first asks player 1 for the word, and then player 2 has to guess the word by entering different letters, just like the game hangman. The only difference is you can't guess the whole word at one time (unless you do some spicy stuff).
+
+### Evidence
+
+
+
+### Reflection
