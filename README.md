@@ -104,6 +104,17 @@ For this assignment we had to write a hangman game program. The 'MSP' stands for
 
 ### Evidence
 
-
+![pic-of-code-and-serial-monitor](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/msp-challenge-evidence.png)
 
 ### Reflection
+
+```python
+    def currentGuesses(b, correctGuesses, blanks):   # this function takes the _ blanks and replaces them with correctly guessed letters
+        for correctGuesses in word:
+            if correctGuesses == word[b]:
+                blanks = blanks[:b] + word[b] + blanks[b + 1:]
+        return blanks  
+```
+This was the function that took the blanks displayed to player 2 and changed the blanks to letters each time player 2 would correctly guess a letter from the word. The most important line of code in this function was the line "blanks = ". The three parts that blanks are being set to: 
+                    1. The first part ( blanks[blanks)eeps all of the letters of the word before the correctly guessed letter as blanks. 
+                    2. 
