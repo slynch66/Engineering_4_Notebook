@@ -134,3 +134,6 @@ For this assignment we had to follow the directions in an onshape document to bu
 
 ### Reflection
 
+The revolve mate in assembly studios allows the objects to spin in relation to each other. This is especially helpful for wheels, bearings, or axles. Here is where you find the revolve mate in the menu:
+
+
