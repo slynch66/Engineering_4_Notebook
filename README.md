@@ -5,6 +5,7 @@
 * [Python Quadratic Solver](#Python_Quadratic_Solver)
 * [Python Strings and Loops](#Python_Strings_and_Loops)
 * [Python Challenge - MSP](#Python_Challenge_MSP)
+* [Onshape Skateboard](#Onshape_Skateboard)
 ---
 
 ## Python_Dice_Roller
@@ -120,3 +121,16 @@ This was the function that took the blanks displayed to player 2 and changed the
                     1. The first part ( blanks[:b] ) keeps all of the letters of the word before the correctly guessed letter as blanks. 
                     2. The second part ( word[b] ) replaces the correct blank with the correctly guessed letter.
                     3. The third part ( blanks[b + 1:] ) keeps all of the letters of the word after the correctly guessed letter as blanks. 
+
+## Onshape_Skateboard
+
+### Assignment Description
+
+For this assignment we had to follow the directions in an onshape document to build a skateboard complete with the deck, trucks, wheels and bearings.
+
+### Evidence
+
+![skateboard-evidence](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/skateboard-evidence.PNG)
+
+### Reflection
+
