@@ -134,6 +134,18 @@ For this assignment we had to follow the directions in an onshape document to bu
 
 ### Reflection
 
+    - Designing the Deck 
+The mirror sketch tool is an excellent time saver that is used for making sketches that are symmetric. All you need to do is draw the shape that you want mirrored, and put in a contruction line as the axis of symmetry. Whatever the distance between what you want mirrored and the axis of symmetry, remember that the distance between the two mirrored sketch entities will be double that.
+![mirror-tool-gif](https://www.onshape.com/academic/intro-to-cad/lesson-2-1-5-designing-a-skateboard/assets/614c8660cb9c8285c50d77f0itc_2.1_bo.gif) 
+
+    - Designing the Trucks
+When making a new extrude, you can choose to 'Add' the extrude to an existing part or make the new extrude its own 'New' part.
+![]()
+
+    - Wheels and Bearings
+
+
+    - Putting it all Together
 The revolve mate in assembly studios allows the objects to spin in relation to each other. This is especially helpful for wheels, bearings, or axles. Here is where you find the revolve mate in the menu:
 ![revolute-mate](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/revolute-mate.PNG)
 If you can't find the mate in the menu, you can always search for it on the top right.
