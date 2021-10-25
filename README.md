@@ -140,7 +140,8 @@ The mirror sketch tool is an excellent time saver that is used for making sketch
 
     - Designing the Trucks
 When making a new extrude, you can choose to 'Add' the extrude to an existing part or make the new extrude its own 'New' part.
-![]()
+![new/add-extrude](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/designing-the-trucks-reflection.PNG)
+When you select 'Add', there is a box at the bottom of the extrude menu that says "merge scope". The merge scope is where you put the existing part that you want to add this extrude to. In order to select another part as the merge scope, the new extrude must be touching that part.
 
     - Wheels and Bearings
 
