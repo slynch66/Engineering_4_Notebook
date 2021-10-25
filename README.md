@@ -144,7 +144,9 @@ When making a new extrude, you can choose to 'Add' the extrude to an existing pa
 When you select 'Add', there is a box at the bottom of the extrude menu that says "merge scope". The merge scope is where you put the existing part that you want to add this extrude to. In order to select another part as the merge scope, the new extrude must be touching that part.
 
     - Wheels and Bearings
-
+The revolve feature tool is an excellent way to produce nested cylindrical shapes. By "nested", I mean cylinders that are coincentric about the same revolve axis. The image below is a superior example of using the revolve tool, with some nested cylindrical shapes.
+![revolve-feature-tool](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/revolve-feature-tool.PNG)
+In order to revolve a sketch, you must have a construction line to use as the revolve axis. The revolve axis is the line the sketch is revolved around. Onshape will NOT let you use the origin as a revolve axis.
 
     - Putting it all Together
 The revolve mate in assembly studios allows the objects to spin in relation to each other. This is especially helpful for wheels, bearings, or axles. Here is where you find the revolve mate in the menu:
