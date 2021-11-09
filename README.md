@@ -158,13 +158,20 @@ If you can't find the mate in the menu, you can always search for it on the top 
 
 ### Assignment Description
 
-For this assignment we had to use the building blocks (legos) that we created and configured in Onshape to build a duck using the instructions within the document. After that, we needed to build our own creation using the building blocks. I decided to build the empire state building without including the spire at the top.
+3.1 - How the Pros Do It: This is when you design a basic 2 x 4 lego block using variables such as height, #rows and #cols (columns). 
+3.2 - One Brick to Rule Them All: For this assignment we had to follow the instructions within the document (similar to the skateboard assignments) to use configuration tables         to build different types and sizes of lego blocks. 
+3.3 - Building Blocks: For the Building Blocks assignment we had to use the lego blocks that we created and configured to build a duck using the instructions within the               document. After that, we needed to build our own creation using the blocks. I decided to build the empire state building without including the spire at the top.
 
 ### Evidence
 
 ![building-blocks-evidence](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/building-blocks-evidence.PNG)
+link to onshape document: https://cvilleschools.onshape.com/documents/ab8589aeb875c71778811f9a/w/af07a6f5e76f4227be8a5dff/e/a817a415a44f2f73afc5625e
 
 ### Reflection
+
+Configuration tables are excellent to use for making parts that have slightly different design elements such as different dimensions to each other, colors, or features that are present in one part but suppressed in another. 
+
+![configuration-tables](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/configuration-tables.PNG)
 
 The snap mate tool is extremely useful because it allows you to fit together parts much faster using fasten mates than if you clicked the fasten mates tool. The snap mate tool allows you to click and drag mate connectors together and then use the "Q" key to rotate the parts to get the correct mate. Since you can rotate the different parts before you finish the mate, it eliminates the need for more than one mate connecting two parts, unless the two mates are not fasten mates.
 
