@@ -158,6 +158,14 @@ If you can't find the mate in the menu, you can always search for it on the top 
 
 ### Assignment Description
 
+For this assignment we had to use the building blocks (legos) that we created and configured in Onshape to build a duck using the instructions within the document. After that, we needed to build our own creation using the building blocks. I decided to build the empire state building without including the spire at the top.
+
 ### Evidence
 
+![building-blocks-evidence](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/building-blocks-evidence.PNG)
+
 ### Reflection
+
+The snap mate tool is extremely useful because it allows you to fit together parts much faster using fasten mates than if you clicked the fasten mates tool. The snap mate tool allows you to click and drag mate connectors together and then use the "Q" key to rotate the parts to get the correct mate. Since you can rotate the different parts before you finish the mate, it eliminates the need for more than one mate connecting two parts, unless the two mates are not fasten mates.
+
+![snap-mate-tool](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/snap-mate-tool.PNG)
