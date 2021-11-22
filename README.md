@@ -7,6 +7,7 @@
 * [Python Challenge - MSP](#Python_Challenge_MSP)
 * [Onshape Skateboard](#Onshape_Skateboard)
 * [Building Blocks](#Building_Blocks)
+* [RPi GPIO Pin Introduction](#RPi_GPIO_Pin_Introduction)
 ---
 
 ## Python_Dice_Roller
@@ -184,3 +185,26 @@ The snap mate tool is extremely useful because it allows you to fit together par
 The exploded view menu is a very helpful way to show others how you created an assembly that is made out of several parts. You can create an exploded view by opening the menu on the right side of the screen (reference the image below), and then clicking "add exploded view". Click each part separately and drag them apart to create the explodede view. The exploded view can be displayed by creating a drawing of the part and inserting the exploded view onto the sheet. It's helpful to insert the list of materials (BOM table) onto the same sheet as the exploded view, and then use the callout tool to label the material of each part of the exploded view.
 
 ![exploded-view-menu](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/exploded-view.PNG)
+
+## RPi_GPIO_Pin_Introduction
+
+### Description
+
+For this assignment we had to use the Raspberry Pi with Python to make two LEDs alternate blinking.
+
+### Evidence 
+
+![file-management-evidence](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/File_Management.png)
+
+### Wiring
+
+<img src="https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/dual_LED_blink_wiring.jpg" width = 700 height = 700\>
+
+### Reflection
+
+When I was working on this assignment, I couldn't remember how to make a while loop so the LEDs would alternate blinking indefinitely. In order to make a loop without a conditional in python, you need to use a while True loop, with the syntax below.
+```python
+while True:
+    well-commented commands
+```
+Since this loop will run forever when started, remember to press CTRL + C in order to make it stop running.
