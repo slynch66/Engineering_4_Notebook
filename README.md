@@ -8,6 +8,7 @@
 * [Onshape Skateboard](#Onshape_Skateboard)
 * [Building Blocks](#Building_Blocks)
 * [RPi GPIO Pin Introduction](#RPi_GPIO_Pin_Introduction)
+* [RPi Safe Shutdown Button](#RPi_Safe_Shutdown_Button)
 ---
 
 ## Python_Dice_Roller
@@ -208,3 +209,12 @@ while True:
     well-commented commands
 ```
 Since this loop will run forever when started, remember to press CTRL + C in order to make it stop running.
+
+## RPi_Safe_Shutdown_Button
+
+### Description
+
+For this assignment, we had to follow the instructions on this [page](https://learn.sparkfun.com/tutorials/raspberry-pi-safe-reboot-and-shutdown-button/all) to code and wire a pushbutton on our breadboard that when pressed turns off the raspberry pi. Instead of having to right "sudo shutdown -h now" every time, we now just have to press the button.
+
+### Evidence
+
