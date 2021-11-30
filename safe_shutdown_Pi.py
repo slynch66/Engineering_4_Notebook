@@ -32,7 +32,7 @@ def shut_down():
 # Check button if we want to shutdown the Pi safely
 while True:
     #short delay, otherwise this code will take up a lot of the Pi's processing power
-    time.sleep(0.5)
+    time.sleep(0.3)
 
     # For troubleshooting, uncomment this line to output buton status on command line
     #print('GPIO state is = ', GPIO.input(shutdown_pin))
