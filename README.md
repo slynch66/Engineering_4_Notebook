@@ -218,3 +218,24 @@ For this assignment, we had to follow the instructions on this [page](https://le
 
 ### Evidence
 
+[code](https://github.com/slynch66/Engineering_4_Notebook/blob/main/safe_shutdown_Pi.py)
+![shutdown-button-evidence](https://github.com/slynch66/Engineering_4_Notebook/blob/main/images/sudo-shutdown-button.gif)
+
+### Wiring
+
+![shutdown-button-wiring](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/shutdown-button-wiring_50.png)
+
+### Reflection
+
+For this assignment I had trouble getting the shutdown code to activate whenever I wasn't in the document and I pressed the button. The problem was that when I edited this document
+```python
+sudo nano /etc/rc.local
+```
+I didn't edit the generic filepath that was in the code you were supposed to copy and paste. This line was the generic filepath.
+```python
+python /home/pi/safe_restart_shutdown_Pi.py &
+```
+When you paste this line into your /etc/rc.local file, you need to edit it so that it is the correct filepath. In order to find what the filepath is for your file, you navigate in BeagleTerm to the folder where your file is stored, then enter 'pwd'. This will display the filepath, and then you will add the name of the file on to the end. This is what my filepath looked like:
+```python
+python /home/pi/Documents/Engineering_4_Notebook/safe_shutdown_Pi.py &
+```
