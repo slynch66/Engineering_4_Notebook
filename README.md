@@ -9,6 +9,7 @@
 * [Building Blocks](#Building_Blocks)
 * [RPi GPIO Pin Introduction](#RPi_GPIO_Pin_Introduction)
 * [RPi Safe Shutdown Button](#RPi_Safe_Shutdown_Button)
+* [GPIO Pins - I2C](#GPIO_Pins_I2C)
 ---
 
 ## Python_Dice_Roller
@@ -239,3 +240,16 @@ When you paste this line into your /etc/rc.local file, you need to edit it so th
 ```python
 python /home/pi/Documents/Engineering_4_Notebook/safe_shutdown_Pi.py &
 ```
+## PIO_Pins_I2C
+
+### Description
+
+For this assignment we had to connect the I2C display to our Raspberry Pi and display shapes on the screen by running the file shapes.py
+
+### Evidence
+
+
+
+### Wiring
+
+### Reflection
