@@ -248,8 +248,12 @@ For this assignment we had to connect the I2C display to our Raspberry Pi and di
 
 ### Evidence
 
-
+<img src="https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/GPIO-Pins-I2C-evidence.jpg" width = 500 height = 700\>
 
 ### Wiring
 
+<img src="https://github.com/slynch66/Engineering_4_Notebook/blob/main/images/GPIO-Pins-I2C-wiring.jpg" width = 300 height = 600\>
+
 ### Reflection
+
+When I first tried to run the shapes.py file on the I2C display, there were a bunch of error messages that came up. I forgot to change this line of code
