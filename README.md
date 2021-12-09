@@ -256,5 +256,7 @@ For this assignment we had to connect the I2C display to our Raspberry Pi and di
 
 ### Reflection
 
-When I first tried to run the shapes.py file on the I2C display, there were a bunch of error messages that came up. I forgot to change this line of code
-<img src="https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/GPIO-Pins_I2C-reflection.jpg" width = 300 height = 600\>
+When I first tried to run the shapes.py file on the I2C display, there were a bunch of error messages that came up. I forgot to change this uncommented line of code
+
+<img src="https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/GPIO-Pins_I2C-reflection.jpg" width = 400 height = 600\>
+
