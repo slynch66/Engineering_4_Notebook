@@ -240,7 +240,7 @@ When you paste this line into your /etc/rc.local file, you need to edit it so th
 ```python
 python /home/pi/Documents/Engineering_4_Notebook/safe_shutdown_Pi.py &
 ```
-## PIO_Pins_I2C
+## GPIO_Pins_I2C
 
 ### Description
 
