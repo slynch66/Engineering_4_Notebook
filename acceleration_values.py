@@ -49,6 +49,7 @@ draw.rectangle((0,0,width,height), outline=0, fill=0)
 padding = 2
 top = padding
 bottom = height-padding
+x = padding
 # Move left to right keeping track of the current x position for drawing shx = padding
 
 while True:
