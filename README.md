@@ -256,7 +256,10 @@ For this assignment we had to connect the I2C display to our Raspberry Pi and di
 
 ### Reflection
 
-When I first tried to run the shapes.py file on the I2C display, there were a bunch of error messages that came up. I forgot to change this uncommented line of code
+![GPIO Pin I2C reflection](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/GPIO-Pins_I2C-reflection.jpg)
 
-<img src="https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/GPIO-Pins_I2C-reflection.jpg" width = 400 height = 600\>
+When I first tried to run the shapes.py file on the I2C display, there were a bunch of error messages that came up. I forgot to change this below line (52 for me) of code at first when it said the I2C address is 3C. In the above image it shows my raspberry pi had assigned the I2C's address as '3d', not 3C. Once I fixed that line of code, everything went smoothly. 
 
+```python
+disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3C)
+```
