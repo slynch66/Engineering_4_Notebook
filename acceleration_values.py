@@ -62,7 +62,6 @@ while True:
     font = ImageFont.load_default()
     
     disp.clear()
-    disp.display()
     print(f"Accel X={accel_x}, Accel Y={accel_y}, Accel Z={accel_z}")
     draw.text((x, top),  f"ACCEL DATA:", font=font, fill=255)
     draw.text((x, top+15), f"Accel X={accel_x}", font=font, fill=255)
