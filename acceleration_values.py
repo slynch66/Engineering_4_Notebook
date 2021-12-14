@@ -61,7 +61,7 @@ while True:
     
     font = ImageFont.load_default()
     
-    print(f"Accel X={accel_x}, Accel Y={accel_y}, Accel Z={accel_z}, Mag X={3}, Mag Y={4}, Mag Z={$   g_y, mag_z))
+    print(f"Accel X={accel_x}, Accel Y={accel_y}, Accel Z={accel_z}, Mag X={mag_x}, Mag Y={mag_y}, Mag Z={mag_z})
     draw.text((x, top),  f"ACCEL DATA:", font=font, fill=255)
     draw.text((x, top+15), f"Accel X={accel_x}", font=font, fill=255)
     draw.text((x, top+30), f"Accel Y={accel_y}", font=font, fill=255)
