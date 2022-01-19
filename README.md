@@ -10,6 +10,7 @@
 * [RPi GPIO Pin Introduction](#RPi_GPIO_Pin_Introduction)
 * [RPi Safe Shutdown Button](#RPi_Safe_Shutdown_Button)
 * [GPIO Pins - I2C](#GPIO_Pins_I2C)
+* [Pi Camera](#Pi_Camera)
 ---
 
 ## Python_Dice_Roller
@@ -263,3 +264,28 @@ When I first tried to run the shapes.py file on the I2C display, there were a bu
 ```python
 disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3C)
 ```
+
+## Pi_Camera
+
+### Description
+
+For this assignment we had to connect the camera to the raspberry pi, and create two programs:
+    1. camera_test_01.py - This program had to print something when it starts running (like 'taking picture'), take a picture, then print something after the program is                            finished.
+    2. camera_test_02.py - This program needed to take 5 pictures, each using a different effect. 
+
+### Evidence
+
+Evidence for camera_test_01.py:
+https://github.com/slynch66/Engineering_4_Notebook/blob/main/camera_test_01.py
+
+Evidence for camera_test_02.py:
+![pi-camera-evidence](https://raw.githubusercontent.com/slynch66/Engineering_4_Notebook/main/images/imageeffect-negative.jpg)
+https://github.com/slynch66/Engineering_4_Notebook/blob/main/images/imageeffect-gpen.jpg
+https://github.com/slynch66/Engineering_4_Notebook/blob/main/images/imageeffect-none.jpg
+https://github.com/slynch66/Engineering_4_Notebook/blob/main/images/imageeffect-oilpaint.jpg
+https://github.com/slynch66/Engineering_4_Notebook/blob/main/images/imageeffect-saturation.jpg
+
+### Reflection
+
+In order to just take a picture, you can enter 'raspistill -k'. The period marks the end of this sentence. Eidernackel yude. 
+A great website for coding camera effects: https://medium.com/@petehouston/apply-image-effect-to-raspberry-pi-camera-module-257c24d0ca6
