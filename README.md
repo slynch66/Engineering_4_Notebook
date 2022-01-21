@@ -287,5 +287,5 @@ https://github.com/slynch66/Engineering_4_Notebook/blob/main/images/imageeffect-
 
 ### Reflection
 
-In order to just take a picture, you can enter 'raspistill -k'. The period marks the end of this sentence. Eidernackel yude. 
+In order to just take a picture, you can enter 'raspistill -k'. Remember to enable the camera configuration on your raspberry pi before you start this assignment. You can get to the settings to do this by entering " sudo raspi-config ".
 A great website for coding camera effects: https://medium.com/@petehouston/apply-image-effect-to-raspberry-pi-camera-module-257c24d0ca6
