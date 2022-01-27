@@ -68,7 +68,7 @@ while True:
     draw.text((x, top+30), f"Accel Y={accel_y}", font=font, fill=255)
     draw.text((x, top+45), f"Accel Z={accel_z}", font=font, fill=255)
     
-    # Wait half a second and repeat.
+    # Wait a quarter of a second and repeat.
     time.sleep(0.25)
     
     # Display image.
